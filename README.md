@@ -1,10 +1,22 @@
 # mros2-mbed (on mbed studio)
+## チュートリアル
+1. mbed studiOを開きます
+2. File -> Import programでこのリポジトリのurlを貼っつけます
+3. Libraryタブを開きます
+4. ！マークを押して最新版にします
+5. embeddedRTPS/thirdparty　ないの2つのディレクトリを platform内に移します
+6. mros2が使えます！！
+※ビルドの前に下のコマンドを実行しテンプレを作ってください
+`python3 ./mros2/mros2_header_generator/templates_generator.py --indir ./`
+
+
 ## Getting started!!!!!!
 1. open mbed studio!!!
 2. File -> import program -> copy this repository's url
 3. open Libraries tab
 4. click "!" button
-5. enjoy mros2 life!!!
+5. mv from embeddedRTPS/thirdparty/{Micro-CDR,lwip} to platform/
+6. enjoy mros2 life!!!
 (when you build,you shoud run some python program ↓)
 `python3 ./mros2/mros2_header_generator/templates_generator.py --indir ./`
 
