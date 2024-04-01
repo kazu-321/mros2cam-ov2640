@@ -6,7 +6,7 @@
 4. ！マークを押して最新版にします
 5. embeddedRTPS/thirdparty　ないの2つのディレクトリを platform内に移します
 6. mros2が使えます！！
-※ビルドの前に下のコマンドを実行しテンプレを作ってください
+※ビルドの前に下のコマンドを実行しテンプレを作ってください。テンプレはトピックの数を増減させたりトピックの型を変えたりしたときに更新が必要です。（最初とトピック関係いじったら下を実行）
 `python3 ./mros2/mros2_header_generator/templates_generator.py --indir ./`
 
 
